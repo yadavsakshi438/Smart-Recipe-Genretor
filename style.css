@@ -1,0 +1,198 @@
+/* === Global Styles === */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* === Header === */
+.app-header {
+  background: #5115aa;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.brand {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.tagline {
+  margin: 0.2rem 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* === Search Section === */
+.search-card {
+  background: rgb(238, 183, 183);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 2rem 0;
+}
+
+.search-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border: 1px solid #c83434;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #ff7043;
+  box-shadow: 0 0 0 2px rgba(255,112,67,0.2);
+}
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn.primary {
+  background: #a24c31;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #e85c2d;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* === Chips (ingredient suggestions) === */
+.chips {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  background: #f1f1f1;
+  border-radius: 20px;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  transition: all 0.2s ease;
+}
+
+.chip:hover {
+  background: #ff7043;
+  color: white;
+  border-color: #ff7043;
+}
+
+/* === Results === */
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.recipe-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.recipe-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #ff7043;
+}
+
+.recipe-card p {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+}
+
+.recipe-card .ingredients {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* === Empty / Loader === */
+.empty, .loader {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.hidden {
+  display: none;
+}
+
+/* === Footer === */
+.app-footer {
+  background: #333;
+  color: #aaa;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+}
+.ingredient-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.ingredient-option {
+  background: #fff3e0;
+  border: 1px solid #ff9800;
+  border-radius: 20px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.ingredient-option input {
+  margin-right: 6px;
+}
+

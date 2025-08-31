@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": 1,
+    "name": "Tea",
+    "ingredients": ["milk", "water", "tea leaves", "sugar"],
+    "instructions": "Boil water, add tea leaves, sugar, and milk. Simmer and serve hot."
+  },
+  {
+    "id": 2,
+    "name": "Fried Rice",
+    "ingredients": ["rice", "soy sauce", "vegetables", "oil"],
+    "instructions": "Cook rice, fry vegetables, add soy sauce, and mix together."
+  },
+  {
+    "id": 3,
+    "name": "Omelette",
+    "ingredients": ["eggs", "salt", "oil"],
+    "instructions": "Beat eggs with salt, pour into hot oil, and cook until firm."
+  },
+  {
+    "id": 4,
+    "name": "Grilled Cheese Sandwich",
+    "ingredients": ["bread", "cheese", "butter"],
+    "instructions": "Spread butter on bread, place cheese inside, and grill until golden."
+  },
+  {
+    "id": 5,
+    "name": "Lemonade",
+    "ingredients": ["lemon", "water", "sugar"],
+    "instructions": "Mix lemon juice with water and sugar, stir well, and serve chilled."
+  },
+  {
+    "id": 6,
+    "name": "Pasta",
+    "ingredients": ["pasta", "salt", "olive oil", "tomato sauce"],
+    "instructions": "Boil pasta with salt, drain, and toss with olive oil and tomato sauce."
+  },
+  {
+    "id": 7,
+    "name": "Salad",
+    "ingredients": ["lettuce", "tomato", "cucumber", "salt", "olive oil"],
+    "instructions": "Chop vegetables, season with salt, drizzle olive oil, and mix."
+  },
+  {
+    "id": 8,
+    "name": "French Fries",
+    "ingredients": ["potato", "oil", "salt"],
+    "instructions": "Cut potatoes into strips, deep fry in hot oil, and sprinkle with salt."
+  },
+  {
+    "id": 9,
+    "name": "Vegetable Soup",
+    "ingredients": ["vegetables", "water", "salt", "pepper"],
+    "instructions": "Boil vegetables in water, add salt and pepper, and simmer until cooked."
+  },
+  {
+    "id": 10,
+    "name": "Chicken Curry",
+    "ingredients": ["chicken", "onion", "tomato", "oil", "spices"],
+    "instructions": "Cook onion and tomato in oil, add spices and chicken, simmer until done."
+  },
+  {
+    "id": 11,
+    "name": "Fruit Smoothie",
+    "ingredients": ["banana", "milk", "sugar"],
+    "instructions": "Blend banana, milk, and sugar until smooth. Serve chilled."
+  },
+  {
+    "id": 12,
+    "name": "Chapati",
+    "ingredients": ["flour", "water", "salt", "oil"],
+    "instructions": "Knead flour with water, roll into circles, cook on hot pan with oil."
+  },
+  {
+    "id": 13,
+    "name": "Pancakes",
+    "ingredients": ["flour", "milk", "egg", "sugar", "butter"],
+    "instructions": "Mix ingredients, pour batter on hot pan, cook both sides until golden."
+  },
+  {
+    "id": 14,
+    "name": "Poha",
+    "ingredients": ["poha", "onion", "oil", "salt", "spices"],
+    "instructions": "Rinse poha, fry onion in oil with spices, mix poha, cook briefly."
+  },
+  {
+    "id": 15,
+    "name": "Upma",
+    "ingredients": ["semolina", "onion", "oil", "water", "salt"],
+    "instructions": "Roast semolina, fry onion in oil, add water, salt, and semolina."
+  },
+  {
+    "id": 16,
+    "name": "Maggie Noodles",
+    "ingredients": ["noodles", "water", "spices"],
+    "instructions": "Boil noodles in water, add spice mix, and cook until done."
+  },
+  {
+    "id": 17,
+    "name": "Curd Rice",
+    "ingredients": ["rice", "curd", "salt"],
+    "instructions": "Mix cooked rice with curd and salt. Serve chilled or warm."
+  },
+  {
+    "id": 18,
+    "name": "Dal Fry",
+    "ingredients": ["dal", "onion", "tomato", "oil", "spices"],
+    "instructions": "Cook dal, fry onion and tomato with spices, mix with dal, and simmer."
+  },
+  {
+    "id": 19,
+    "name": "Masala Chai",
+    "ingredients": ["milk", "water", "tea leaves", "sugar", "ginger", "spices"],
+    "instructions": "Boil water with spices and ginger, add tea leaves, sugar, and milk."
+  },
+  {
+    "id": 20,
+    "name": "Vegetable Pulao",
+    "ingredients": ["rice", "vegetables", "oil", "spices", "salt"],
+    "instructions": "Fry vegetables with spices in oil, add rice, water, and cook until done."
+  }
+]

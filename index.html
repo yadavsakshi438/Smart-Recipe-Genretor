@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Predictor</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <header class="app-header">
+      <h1 class="brand">🍲 Recipe Predictor</h1>
+      <p class="tagline">Find recipes based on your ingredients</p>
+    </header>
+
+    <main class="container">
+      <!-- Search Section -->
+      <section class="search-card">
+        <div class="search-row">
+          <input
+            id="ingredient-input"
+            class="input"
+            type="text"
+            placeholder="Enter an ingredient (e.g. tomato)"
+          />
+          <button id="add-btn" class="btn primary">Add</button>
+          <button id="search-btn" class="btn">Search Recipes</button>
+        </div>
+
+        <!-- Chips (selected ingredients) -->
+        <div id="chips" class="chips"></div>
+      </section>
+
+      <!-- Results Section -->
+      <section id="results-section">
+        <div class="results-header">
+          <h2>Recommended Recipes</h2>
+          <p id="count"></p>
+        </div>
+
+        <div id="loader" class="loader hidden">🔄 Loading recipes...</div>
+        <div id="empty" class="empty">
+          No recipes yet. Add ingredients and click Search.
+        </div>
+        <div id="results" class="grid"></div>
+      </section>
+      <div class="ingredient-section">
+        <h2>Select Ingredients:</h2>
+        <div id="ingredient-list" class="ingredient-list"></div>
+      </div>
+      <div id="recipe-results" class="recipe-results"></div>
+      <div class="upload-section">
+        <h2>Upload Ingredient Image</h2>
+        <input type="file" id="image-upload" accept="image/*" />
+        <p id="image-result"></p>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <p>Made with ❤️ for food lovers</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

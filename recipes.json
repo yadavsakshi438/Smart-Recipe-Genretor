@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Tea",
+    "ingredients": ["milk", "water", "tea leaves", "sugar"],
+    "instructions": [
+      "Bring water to a boil in a pot.",
+      "Add tea leaves and simmer for 2-3 minutes.",
+      "Pour in milk and sugar, then bring to a boil again.",
+      "Strain the tea into cups and serve hot."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fried Rice",
+    "ingredients": ["rice", "soy sauce", "vegetables", "oil"],
+    "instructions": [
+      "Heat oil in a large pan or wok over high heat.",
+      "Add chopped vegetables and stir-fry for 3-4 minutes.",
+      "Add cooked rice and break up any clumps.",
+      "Pour in soy sauce and toss everything together until well combined and heated through."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Omelette",
+    "ingredients": ["eggs", "salt", "oil"],
+    "instructions": [
+      "Crack eggs into a bowl, add a pinch of salt, and beat well with a fork.",
+      "Heat a pan with oil over medium heat.",
+      "Pour the egg mixture into the pan.",
+      "Cook for 2-3 minutes, then fold the omelette in half and serve."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Grilled Cheese Sandwich",
+    "ingredients": ["bread", "cheese", "butter"],
+    "instructions": [
+      "Butter one side of each slice of bread.",
+      "Place one slice butter-side-down in a pan over medium heat.",
+      "Add cheese on top, then cover with the other slice of bread, butter-side-up.",
+      "Cook for 3-4 minutes per side until the bread is golden and the cheese is melted."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lemonade",
+    "ingredients": ["lemon", "water", "sugar"],
+    "instructions": [
+      "Squeeze juice from the lemons into a pitcher.",
+      "Add water and sugar to the pitcher.",
+      "Stir until the sugar dissolves completely.",
+      "Chill in the refrigerator and serve over ice."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pasta",
+    "ingredients": ["pasta", "salt", "olive oil", "tomato sauce"],
+    "instructions": [
+      "Bring a large pot of salted water to a rolling boil.",
+      "Add pasta and cook according to package directions.",
+      "Drain the pasta, reserving a little pasta water.",
+      "Toss the pasta with tomato sauce and a drizzle of olive oil. Add pasta water if needed."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Salad",
+    "ingredients": ["lettuce", "tomato", "cucumber", "salt", "olive oil"],
+    "instructions": [
+      "Wash and chop the lettuce, tomato, and cucumber.",
+      "Place all chopped vegetables in a bowl.",
+      "Drizzle with olive oil and sprinkle with salt.",
+      "Toss gently to combine and serve immediately."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "French Fries",
+    "ingredients": ["potato", "oil", "salt"],
+    "instructions": [
+      "Cut potatoes into thin strips.",
+      "Heat oil in a deep pot to 350°F (175°C).",
+      "Fry the potato strips in batches until golden brown and crispy.",
+      "Remove with a slotted spoon, drain on paper towels, and season with salt."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Vegetable Soup",
+    "ingredients": ["vegetables", "water", "salt", "pepper"],
+    "instructions": [
+      "Chop a variety of vegetables into small pieces.",
+      "Place vegetables in a pot with water.",
+      "Bring to a boil, then reduce heat and simmer until vegetables are tender.",
+      "Season with salt and pepper to taste before serving."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chicken Curry",
+    "ingredients": ["chicken", "onion", "tomato", "oil", "spices"],
+    "instructions": [
+      "Heat oil in a large pan.",
+      "Add chopped onion and sauté until golden.",
+      "Stir in chopped tomato and cook until soft.",
+      "Add chicken and spices, then cook until the chicken is tender and the sauce is rich."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Fruit Smoothie",
+    "ingredients": ["banana", "milk", "sugar"],
+    "instructions": [
+      "Peel and slice the banana.",
+      "Place banana, milk, and sugar in a blender.",
+      "Blend on high speed until the mixture is smooth and creamy.",
+      "Pour into a glass and serve immediately."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Chapati",
+    "ingredients": ["flour", "water", "salt", "oil"],
+    "instructions": [
+      "Mix flour, salt, and water to form a soft dough.",
+      "Knead the dough for 5 minutes.",
+      "Roll small portions of dough into thin, flat circles.",
+      "Cook each chapati on a hot pan, brushing with oil until it puffs up."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Pancakes",
+    "ingredients": ["flour", "milk", "egg", "sugar", "butter"],
+    "instructions": [
+      "In a bowl, whisk together flour, sugar, and egg.",
+      "Gradually add milk, whisking until a smooth batter forms.",
+      "Heat a pan and melt butter.",
+      "Pour a small amount of batter onto the pan and cook until bubbles form, then flip and cook the other side."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Poha",
+    "ingredients": ["poha", "onion", "oil", "salt", "spices"],
+    "instructions": [
+      "Rinse poha gently and set aside to drain.",
+      "Heat oil in a pan and sauté chopped onion until translucent.",
+      "Add spices and cook for one minute.",
+      "Add the drained poha and salt, stir gently, and cook for 2-3 minutes."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Upma",
+    "ingredients": ["semolina", "onion", "oil", "water", "salt"],
+    "instructions": [
+      "Roast semolina in a dry pan until fragrant.",
+      "Heat oil in a separate pan and sauté chopped onion.",
+      "Add water and salt, and bring to a boil.",
+      "Slowly pour in the roasted semolina while stirring constantly to prevent lumps."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Maggie Noodles",
+    "ingredients": ["noodles", "water", "spices"],
+    "instructions": [
+      "Break noodles and place in a pot.",
+      "Add water and the spice mix packet.",
+      "Bring to a boil and cook for 2 minutes, stirring occasionally.",
+      "Serve the noodles hot."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Curd Rice",
+    "ingredients": ["rice", "curd", "salt"],
+    "instructions": [
+      "Mix cooked rice with curd in a bowl.",
+      "Add salt to taste and stir until well combined.",
+      "For tempering, heat a small amount of oil, add mustard seeds and curry leaves.",
+      "Pour the hot tempering over the curd rice and mix."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Dal Fry",
+    "ingredients": ["dal", "onion", "tomato", "oil", "spices"],
+    "instructions": [
+      "Cook dal (lentils) in water until tender.",
+      "In a separate pan, heat oil and sauté chopped onion until golden.",
+      "Add chopped tomato and spices, and cook until the mixture is soft.",
+      "Pour the cooked dal into the pan, mix well, and simmer for 5-7 minutes."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Masala Chai",
+    "ingredients": ["milk", "water", "tea leaves", "sugar", "ginger", "spices"],
+    "instructions": [
+      "Add water, ginger, and spices to a pot and bring to a boil.",
+      "Add tea leaves and simmer for 2 minutes.",
+      "Pour in milk and sugar, then bring the mixture to a boil again.",
+      "Strain the chai into cups and serve."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Vegetable Pulao",
+    "ingredients": ["rice", "vegetables", "oil", "spices", "salt"],
+    "instructions": [
+      "Heat oil in a pot and add spices.",
+      "Add chopped vegetables and sauté for 5 minutes.",
+      "Stir in rice and salt.",
+      "Pour in water, bring to a boil, then reduce heat, cover, and cook until all water is absorbed."
+    ]
+  }
+]
+
